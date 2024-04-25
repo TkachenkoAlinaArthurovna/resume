@@ -1,4 +1,4 @@
-import styles from "@/app/Components/Photo/photo.module.scss";
+import styles from "@/app/components/Photo/photo.module.scss";
 
 export default function Photo() {
   return (

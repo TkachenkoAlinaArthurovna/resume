@@ -1,4 +1,4 @@
-import styles from "@/app/Components/Sidebar/sidebar.module.scss";
+import styles from "@/app/components/Sidebar/sidebar.module.scss";
 
 import Link from "next/link";
 

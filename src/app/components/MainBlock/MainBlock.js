@@ -1,4 +1,4 @@
-import styles from "@/app/Components/MainBlock/mainBlock.module.scss";
+import styles from "@/app/components/MainBlock/mainBlock.module.scss";
 
 import Link from "next/link";
 
