@@ -48,6 +48,7 @@ export default function Sidebar({ children }) {
           <li>CSS</li>
           <li>SCSS</li>
           <li>JavaScript</li>
+          <li>TypeScript</li>
           <li>Gulp</li>
           <li>Git</li>
           <li>GitLab</li>
