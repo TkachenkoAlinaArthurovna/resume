@@ -17,44 +17,58 @@ export default function MainBlock({ children }) {
           I am a web developer specializing in front-end development. I love my
           job. I think that I’m creative, hard-working, and detail-oriented. I
           am constantly learning new technologies and tools to stay up-todate
-          with the latest trends and improve my skills. I am able to work well
-          under pressure and adhere to strict deadlines. I have experience
+          with the latest trends and improve my skills. I have experience
           working as part of a team and individually.
-        </div>
-      </div>
-      <div className={styles.main_block__wrapper_block}>
-        <div className={styles.main_block__sub_title}>Project</div>
-        <div className={styles.main_block__wrapper_link}>
-          <Link href={"https://eco-bike.com.ua/"} target="_blank">
-            eco-bike.com.ua
-          </Link>
-        </div>
-        <div className={styles.main_block__text}>
-          Technology stack: Next.js, React, Redux, Formic, Swiper, Material Ui.
-        </div>
-      </div>
-      <div className={styles.main_block__wrapper_block}>
-        <div className={styles.main_block__sub_title}>Website layout</div>
-        <div className={styles.main_block__wrapper_link}>
-          <Link href={"https://realbeer.ua/"} target="_blank">
-            realbeer.ua
-          </Link>
-        </div>
-        <div className={styles.main_block__text}>
-          Technology stack: HTML, SASS, JavaScript.
+          <div>
+            <Link
+              href={
+                "https://dan-it.com.ua/uk/istorii/istoriya-alina-tkachenko/"
+              }
+              target="_blank"
+            >
+              dan-it.com.ua/uk/istorii/istoriya-alina-tkachenko/
+            </Link>
+          </div>
         </div>
       </div>
       <div className={styles.main_block__wrapper_block}>
         <div className={styles.main_block__sub_title}>Examples of work</div>
         <div className={styles.main_block__wrapper_link}>
-          <Link href={"https://glivera-team.vercel.app/"} target="_blank">
-            glivera-team.vercel.app
+          <Link
+            href={"https://sr-construction-wp.smartorange.com.ua/"}
+            target="_blank"
+          >
+            sr-construction-wp.smartorange.com.ua/
           </Link>
+          <div>(Company : Smart Orange)</div>
+        </div>
+        <div className={styles.main_block__wrapper_link}>
+          <Link href={"https://realbeer.ua/"} target="_blank">
+            realbeer.ua
+          </Link>
+          <div>(Company : K2)</div>
+        </div>
+        <div className={styles.main_block__wrapper_link}>
+          <Link href={"https://www.aviksdrive.com.ua/"} target="_blank">
+            aviksdrive.com.ua
+          </Link>
+          <div>(Company : K2)</div>
         </div>
         <div className={styles.main_block__wrapper_link}>
           <Link href={"https://smart-orange-one.vercel.app/"} target="_blank">
             smart-orange-one.vercel.app
           </Link>
+        </div>
+        <div className={styles.main_block__wrapper_link}>
+          <Link
+            href={"https://github.com/TkachenkoAlinaArthurovna/ebk-front"}
+            target="_blank"
+          >
+            https://github.com/TkachenkoAlinaArthurovna/ebk-front
+          </Link>{" "}
+          - Link to the repository of the bicycle store built with Next.js,
+          where I integrated the Nova Poshta API, payment system, and product
+          data was pulled from the CRM.
         </div>
       </div>
       <div className={styles.main_block__wrapper_block}>
@@ -72,14 +86,76 @@ export default function MainBlock({ children }) {
           <span>Start of work :</span> June 2023
         </div>
         <div className={styles.main_block__text}>
+          <span>End of work :</span> May 2024
+        </div>
+        <div className={styles.main_block__text}>
           <span>Position :</span> front-end developer
         </div>
         <div className={styles.main_block__text}>
-          <span>Responsibilities :</span> determining the structure and design
-          of web pages, ensuring web design is optimized for smartphones,
-          building reusable code for future use, programming the functionality
-          of web page compo﻿nents, creating their interactivity, programming of
-          mobile apps with ionic framework.
+          <span>Responsibilities :</span> website layout.
+        </div>
+      </div>
+      <div className={styles.main_block__wrapper_block}>
+        <div className={styles.main_block__text}>
+          <span>Сompany :</span> Smart Orange{" "}
+        </div>
+        <div className={styles.main_block__text}>
+          <span>Website : </span>
+          <Link href={"https://smarto.agency/en/"} target="_blank">
+            smarto.agency
+          </Link>
+        </div>
+        <div className={styles.main_block__text}>
+          <span>Start of work :</span> May 2024
+        </div>
+        <div className={styles.main_block__text}>
+          <span>Position :</span> front-end developer
+        </div>
+        <div className={styles.main_block__text}>
+          <span>Responsibilities :</span> website layout, 3D tour creation (
+          <Link
+            href={
+              "https://north-development.smartorange.com.ua/3d/?&type=genplan&favourites="
+            }
+            target="_blank"
+          >
+            north-development
+          </Link>
+          ,{" "}
+          <Link
+            href={
+              "https://3d-avalon-terra.smarto.agency/3d/?&favourites=&type=genplan"
+            }
+            target="_blank"
+          >
+            3d-avalon-terra
+          </Link>{" "}
+          ... ),360 apartment tour(
+          <Link
+            href={
+              "https://apartment-tours.smartorange.com.ua/en/zhitlobud/?scene=0"
+            }
+            target="_blank"
+          >
+            apartment-tours zhitlobud
+          </Link>
+          ,{" "}
+          <Link
+            href={"https://apartment-tours.smartorange.com.ua/romb/?scene=0"}
+            target="_blank"
+          >
+            apartment-tours romb
+          </Link>{" "}
+          ... ), website support and creating new pages on the website (
+          <Link href={"https://optimisto.com.ua/"} target="_blank">
+            optimisto
+          </Link>
+          ,
+          <Link href={"https://www.central-park.vn.ua/"} target="_blank">
+            central-park
+          </Link>
+          ... ), integration of Google Analytics into the website, working with
+          the WordPress admin panel.
         </div>
       </div>
     </div>
