@@ -38,7 +38,13 @@ export default function MainBlock({ children }) {
             href={"https://sr-construction-wp.smartorange.com.ua/"}
             target="_blank"
           >
-            sr-construction-wp.smartorange.com.ua/
+            sr-construction-wp.smartorange.com.ua
+          </Link>
+          <div>(Company : Smart Orange)</div>
+        </div>
+        <div className={styles.main_block__wrapper_link}>
+          <Link href={"https://bigben.riel.ua/"} target="_blank">
+            https://bigben.riel.ua
           </Link>
           <div>(Company : Smart Orange)</div>
         </div>
@@ -115,7 +121,41 @@ export default function MainBlock({ children }) {
           <span>Responsibilities :</span> website layout, 3D tour creation (
           <Link
             href={
-              "https://north-development.smartorange.com.ua/3d/?&type=genplan&favourites="
+              "https://dragos-wp.smarto.agency/3d/?&currency=USD&favourites=&type=genplan"
+            }
+            target="_blank"
+          >
+            dragos
+          </Link>
+          ,{" "}
+          <Link
+            href={
+              "https://duyu-wp.smarto.agency/3d/?&currency=USD&favourites=&type=genplan"
+            }
+            target="_blank"
+          >
+            duyu
+          </Link>
+          ,{" "}
+          <Link
+            href={
+              "https://emerald-wp.smarto.com.ua/3d/?&currency=USD&favourites=&type=genplan&fil_area_max=229.7"
+            }
+            target="_blank"
+          >
+            emerald
+          </Link>
+          ,{" "}
+          <Link
+            href={"https://dmz-wp.smarto.agency/3d/?&favourites=&type=genplan"}
+            target="_blank"
+          >
+            dmz
+          </Link>
+          ,{" "}
+          <Link
+            href={
+              "https://north-duyu-wp.smarto.agency/3d/?&currency=USD&favourites=&type=genplan"
             }
             target="_blank"
           >
@@ -153,6 +193,14 @@ export default function MainBlock({ children }) {
           ,
           <Link href={"https://www.central-park.vn.ua/"} target="_blank">
             central-park
+          </Link>
+          ,
+          <Link href={"https://the-light.com.ua/"} target="_blank">
+            the-light
+          </Link>
+          ,
+          <Link href={"https://st26.lv/"} target="_blank">
+            stokholmas-haus
           </Link>
           ... ), integration of Google Analytics into the website, working with
           the WordPress admin panel.
