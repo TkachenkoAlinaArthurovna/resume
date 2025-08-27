@@ -34,17 +34,20 @@ export default function MainBlock({ children }) {
       <div className={styles.main_block__wrapper_block}>
         <div className={styles.main_block__sub_title}>Examples of work</div>
         <div className={styles.main_block__wrapper_link}>
-          <Link
-            href={"https://sr-construction-wp.smartorange.com.ua/"}
-            target="_blank"
-          >
-            sr-construction-wp.smartorange.com.ua
+          <Link href={"https://sr.construction/"} target="_blank">
+            sr.construction
+          </Link>
+          <div>(Company : Smart Orange)</div>
+        </div>
+        <div className={styles.main_block__wrapper_link}>
+          <Link href={"https://father.riel.ua/"} target="_blank">
+            father.riel.ua
           </Link>
           <div>(Company : Smart Orange)</div>
         </div>
         <div className={styles.main_block__wrapper_link}>
           <Link href={"https://bigben.riel.ua/"} target="_blank">
-            https://bigben.riel.ua
+            bigben.riel.ua
           </Link>
           <div>(Company : Smart Orange)</div>
         </div>
