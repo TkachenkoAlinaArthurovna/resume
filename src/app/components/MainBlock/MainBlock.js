@@ -56,7 +56,7 @@ export default function MainBlock({ children }) {
         </div>
         <div className={styles.main_block__wrapper_link}>
           <Link href={"https://bigben.riel.ua/"} target="_blank">
-            bigben.riel.ua
+            bigben.riel.ua bigben.riel.ua
           </Link>
           <div>(Company : Smart Orange)</div>
         </div>
