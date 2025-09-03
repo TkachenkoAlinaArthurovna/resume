@@ -34,6 +34,12 @@ export default function MainBlock({ children }) {
       <div className={styles.main_block__wrapper_block}>
         <div className={styles.main_block__sub_title}>Examples of work</div>
         <div className={styles.main_block__wrapper_link}>
+          <Link href={"https://dzen-residence.com/"} target="_blank">
+            dzen-residence.com
+          </Link>
+          <div>(Company : Smart Orange)</div>
+        </div>
+        <div className={styles.main_block__wrapper_link}>
           <Link
             href={"https://sr-construction-wp.smartorange.com.ua/"}
             target="_blank"
@@ -43,8 +49,14 @@ export default function MainBlock({ children }) {
           <div>(Company : Smart Orange)</div>
         </div>
         <div className={styles.main_block__wrapper_link}>
+          <Link href={"https://father.riel.ua/"} target="_blank">
+            father.riel.ua
+          </Link>
+          <div>(Company : Smart Orange)</div>
+        </div>
+        <div className={styles.main_block__wrapper_link}>
           <Link href={"https://bigben.riel.ua/"} target="_blank">
-            https://bigben.riel.ua
+            bigben.riel.ua
           </Link>
           <div>(Company : Smart Orange)</div>
         </div>
@@ -59,11 +71,6 @@ export default function MainBlock({ children }) {
             aviksdrive.com.ua
           </Link>
           <div>(Company : K2)</div>
-        </div>
-        <div className={styles.main_block__wrapper_link}>
-          <Link href={"https://smart-orange-one.vercel.app/"} target="_blank">
-            smart-orange-one.vercel.app
-          </Link>
         </div>
         <div className={styles.main_block__wrapper_link}>
           <Link
