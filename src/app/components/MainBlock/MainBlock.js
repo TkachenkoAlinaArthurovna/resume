@@ -40,11 +40,8 @@ export default function MainBlock({ children }) {
           <div>(Company : Smart Orange)</div>
         </div>
         <div className={styles.main_block__wrapper_link}>
-          <Link
-            href={"https://sr-construction-wp.smartorange.com.ua/"}
-            target="_blank"
-          >
-            sr-construction-wp.smartorange.com.ua
+          <Link href={"https://sr.construction/"} target="_blank">
+            sr.construction
           </Link>
           <div>(Company : Smart Orange)</div>
         </div>
