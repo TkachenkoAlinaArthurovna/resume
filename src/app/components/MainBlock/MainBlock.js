@@ -34,6 +34,12 @@ export default function MainBlock({ children }) {
       <div className={styles.main_block__wrapper_block}>
         <div className={styles.main_block__sub_title}>Examples of work</div>
         <div className={styles.main_block__wrapper_link}>
+          <Link href={"https://stock.riel.ua/"} target="_blank">
+            stock.riel.ua
+          </Link>
+          <div>(Company : Smart Orange)</div>
+        </div>
+        <div className={styles.main_block__wrapper_link}>
           <Link href={"https://dzen-residence.com/"} target="_blank">
             dzen-residence.com
           </Link>
@@ -53,7 +59,7 @@ export default function MainBlock({ children }) {
         </div>
         <div className={styles.main_block__wrapper_link}>
           <Link href={"https://bigben.riel.ua/"} target="_blank">
-            bigben.riel.ua bigben.riel.ua
+            bigben.riel.ua
           </Link>
           <div>(Company : Smart Orange)</div>
         </div>
