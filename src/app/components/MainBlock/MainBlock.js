@@ -34,6 +34,12 @@ export default function MainBlock({ children }) {
       <div className={styles.main_block__wrapper_block}>
         <div className={styles.main_block__sub_title}>Examples of work</div>
         <div className={styles.main_block__wrapper_link}>
+          <Link href={"https://dobrobud.net/"} target="_blank">
+            dobrobud.net
+          </Link>
+          <div>(Company : Smart Orange)</div>
+        </div>
+        <div className={styles.main_block__wrapper_link}>
           <Link href={"https://stock.riel.ua/"} target="_blank">
             stock.riel.ua
           </Link>
@@ -130,37 +136,19 @@ export default function MainBlock({ children }) {
         <div className={styles.main_block__text}>
           <span>Responsibilities :</span> website layout, 3D tour creation (
           <Link
-            href={
-              "https://dragos-wp.smarto.agency/3d/?&currency=USD&favourites=&type=genplan"
-            }
+            href={"https://3d.dmz.md/3d/?&favourites=&type=genplan"}
             target="_blank"
           >
-            dragos
+            DMZ
           </Link>
           ,{" "}
           <Link
             href={
-              "https://duyu-wp.smarto.agency/3d/?&currency=USD&favourites=&type=genplan"
+              "https://genplan-artpark.harmony-development.com.ua/3d/?&currency=USD&favourites=&type=genplan"
             }
             target="_blank"
           >
-            duyu
-          </Link>
-          ,{" "}
-          <Link
-            href={
-              "https://emerald-wp.smarto.com.ua/3d/?&currency=USD&favourites=&type=genplan&fil_area_max=229.7"
-            }
-            target="_blank"
-          >
-            emerald
-          </Link>
-          ,{" "}
-          <Link
-            href={"https://dmz-wp.smarto.agency/3d/?&favourites=&type=genplan"}
-            target="_blank"
-          >
-            dmz
+            Harmony
           </Link>
           ,{" "}
           <Link
@@ -171,15 +159,6 @@ export default function MainBlock({ children }) {
           >
             north-development
           </Link>
-          ,{" "}
-          <Link
-            href={
-              "https://3d-avalon-terra.smarto.agency/3d/?&favourites=&type=genplan"
-            }
-            target="_blank"
-          >
-            3d-avalon-terra
-          </Link>{" "}
           ... ),360 apartment tour(
           <Link
             href={
