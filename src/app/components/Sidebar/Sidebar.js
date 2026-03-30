@@ -45,29 +45,27 @@ export default function Sidebar({ children }) {
       <div className={styles.sidebar__block}>
         <ul>
           <li>HTML</li>
-          <li>CSS</li>
-          <li>SCSS</li>
+          <li>CSS, SCSS</li>
           <li>JavaScript</li>
           <li>TypeScript</li>
           <li>Pug</li>
           <li>Gulp</li>
           <li>Git</li>
-          <li>GitLab</li>
-          <li>GitHub</li>
-          <li>React</li>
-          <li>React Router</li>
-          <li>Redux</li>
+          <li>GitLab, GitHub</li>
+          <li>React, React Router, Redux</li>
           <li>Next.js</li>
-          <li>Formic/Yup</li>
-          <li>GSAP</li>
-          <li>Swiper</li>
           <li>Material UI</li>
-          <li>Bootstrap</li>
           <li>Figma</li>
-          <li>Photoshop</li>
+          <li>Python Core</li>
+          <li>SQL Basics</li>
         </ul>
       </div>
       <div className={styles.sidebar__subtitle}>Education</div>
+      <div className={styles.sidebar__block}>
+        <span>Python developer</span>
+        <img src={"/images/1.png"} width={"100%"}></img>
+        <img src={"/images/2.png"} width={"100%"}></img>
+      </div>
       <div className={styles.sidebar__block}>
         <span>2023 • FrontEnd • DAN.IT : </span>
         <div>
